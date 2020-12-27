@@ -1,4 +1,5 @@
 package ge;
+
 public class k_means {
 
 	public static void main(String[] args) {
@@ -29,7 +30,7 @@ public class k_means {
 		}
 		System.out.println();
 		for (int n = 0; n < new_group.length; n++) {
-			System.out.print(new_group[n] + " | ");
+			System.out.print(new_group[n] + " || ");
 
 		}
 
